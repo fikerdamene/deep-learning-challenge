@@ -1,14 +1,14 @@
-Overview of the Analysis
+- Overview of the Analysis
 
 The purpose of this analysis is to build and evaluate a deep learning model to predict the success of charitable donations. The model aims to classify whether a donation request will be successful based on various features extracted from the dataset. By preprocessing the data, training a neural network, and evaluating its performance, we aim to identify patterns that can help improve the success rate of donation requests.
 
-Data Preprocessing
+- Data Preprocessing
 
-Target Variable:
+- Target Variable:
 
 IS_SUCCESSFUL: This is the binary target variable indicating whether a donation request was successful (1) or not (0).
 
-Feature Variables:
+- Feature Variables:
 
 APPLICATION_TYPE
 
@@ -28,7 +28,7 @@ SPECIAL_CONSIDERATIONS
 
 ASK_AMT
 
-Variables Removed:
+- Variables Removed:
 
 EIN: This is an identifier and does not contribute to the predictive modeling.
 
@@ -46,7 +46,7 @@ Second Hidden Layer: 30 neurons with ReLU activation function. Provides addition
 
 Output Layer: 1 neuron with sigmoid activation function for binary classification.
 
-Model Performance:
+- Model Performance:
 
 Initial accuracy achieved: ~74.2%
 
@@ -60,13 +60,13 @@ Model Architecture Tuning: Experimented with the number of neurons and layers.
 
 Hyperparameter Tuning: Adjusted the number of epochs for training.
 
-Summary
+- Summary
 
 Overall Results:
 
 The deep learning model achieved an accuracy of approximately 74.2%. Although this is a decent starting point, there is room for improvement.
 
-Recommendations for Different Models:
+- Recommendations for Different Models:
 
 Random Forest Classifier: Given the categorical nature and the possible non-linear relationships in the data, a Random Forest could potentially provide better performance through ensemble learning.
 
@@ -74,7 +74,7 @@ Gradient Boosting Machines (GBM): GBM can handle the imbalanced nature of the da
 
 Support Vector Machines (SVM): With the right kernel, SVMs can be powerful for binary classification problems with clear margins of separation.
 
-Why These Recommendations:
+- Why These Recommendations:
 
 Random Forests are robust to overfitting, especially with a large number of trees, and can handle categorical variables effectively.
 
