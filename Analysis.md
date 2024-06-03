@@ -1,4 +1,4 @@
-- Overview of the Analysis
+Overview of the Analysis
 
 The purpose of this analysis is to build and evaluate a deep learning model to predict the success of charitable donations. The model aims to classify whether a donation request will be successful based on various features extracted from the dataset. By preprocessing the data, training a neural network, and evaluating its performance, we aim to identify patterns that can help improve the success rate of donation requests.
 
